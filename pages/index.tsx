@@ -1,26 +1,13 @@
 import type { NextPage } from "next";
-import styles from "../styles/Home.module.css";
 import {
   ActionIcon,
-  Button,
   Group,
-  Title,
   Text,
-  useMantineTheme,
+  Title,
   UnstyledButton,
-  Box,
+  useMantineTheme,
 } from "@mantine/core";
-import { AppContainer } from "../components/AppContainer/AppContainer";
-import { RichEditor } from "../components/Editor/RichEditor";
-import {
-  PlayerPlay,
-  Playlist,
-  PlaylistAdd,
-  Plus,
-  Settings,
-} from "tabler-icons-react";
-import { auto } from "@popperjs/core";
-import { light } from "@mantine/prism/lib/prism-theme";
+import { PlayerPlay, PlaylistAdd, Plus, Settings } from "tabler-icons-react";
 
 const Home: NextPage = () => {
   const theme = useMantineTheme();
