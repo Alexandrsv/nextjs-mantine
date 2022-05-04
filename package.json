@@ -9,7 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mantine/core": "^4.2.2",
+    "@mantine/dates": "^4.2.2",
+    "@mantine/dropzone": "^4.2.2",
+    "@mantine/form": "^4.2.2",
+    "@mantine/hooks": "^4.2.2",
+    "@mantine/modals": "^4.2.2",
+    "@mantine/next": "^4.2.2",
+    "@mantine/notifications": "^4.2.2",
+    "@mantine/prism": "^4.2.2",
+    "@mantine/rte": "^4.2.2",
+    "@mantine/spotlight": "^4.2.2",
+    "dayjs": "^1.11.1",
     "next": "12.1.6",
+    "prettier": "^2.6.2",
     "react": "18.1.0",
     "react-dom": "18.1.0"
   },
